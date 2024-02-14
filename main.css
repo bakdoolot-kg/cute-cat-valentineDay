@@ -1,0 +1,20 @@
+body {
+    font-family: "Pacifico", cursive;
+    background: url("valentine.webp");
+}
+
+button {
+    font-family: "Pacifico", cursive;
+}
+
+.container {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}

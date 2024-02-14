@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Valentine day</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="list">
+            <p style="font-size: 21px;color: #fff;">
+                Ты будешь моей валентинкой?
+
+                <div style="max-width: 5vw;margin: 0 auto;">
+                    <img src="cute-cat-element-free-png.webp" style="width: 100%;" alt="">
+                </div>
+            </p>
+
+            <div>
+                <button
+                    style="background-color:red;height:50px;width:70px;border-radius: 10px;border: none;color: #fff;font-weight: 700;font-size: 21px;"
+                    onmouseDown="alert('Так и знал, напиши сюда @b_altybaevv')" value="ДА!!!">
+                    ДА!!!
+                </button>
+                <span id="button1" style="position:relative;z-index:10;border: none;" onmouseOver="moveIt()"
+                    onfocus="moveIt();this.blur()">
+                    <button
+                        style="background-color:lightgreen;height:50px; width:70px;border: none;color: #fff;border-radius: 10px;font-size: 18;"
+                        onmouseDown="moveIt()" onmouseover="moveIt()" onfocus="moveIt();this.blur()">Нет</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
